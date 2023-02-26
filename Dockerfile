@@ -1,4 +1,4 @@
-FROM golang:1.15.6
+FROM golang:latest
 
 RUN mkdir /ToDoList
 
