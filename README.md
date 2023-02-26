@@ -51,40 +51,18 @@ This project is based on the following elements: Golang, Gin Framework, MongoDB,
     }
     ```
 
-2. user/todo_list: Get method
+2. users/todo_list: Get method
 
     Sample Output
 
     ```JSON
     {
-      "do homework",
-      "write diary"
+      "gym",
+      "diary"
     }
     ```
 
     > Note that this method does not have input.
 
-3. user/todo_list: Delete method
-
-    Sample Input
-
-    ```JSON
-    {
-      "delete_element": "do homework"
-    }
     ```
-
-    Sample Output
-
-    ```JSON
-    {
-      "MatchedCount": 1,
-      "ModifiedCount": 1,
-      "UpsertedCount": 0,
-      "UpsertedID": null
-    }
-    ```
-
-## Postman
-
-In the repo, you can find `TodoList.postman_collection.JSON` and then import to the Postman.
+3. users/todo_list: Put update
